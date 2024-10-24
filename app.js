@@ -30,5 +30,6 @@ const stopChangingColor = () => {
     startChangingColorButton.disabled = false;
     interval = null
 }
+
 startChangingColorButton.addEventListener('click', startChangingColor);
 stopChangingColorButton.addEventListener('click', stopChangingColor);
